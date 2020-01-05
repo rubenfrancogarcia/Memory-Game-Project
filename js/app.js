@@ -250,7 +250,7 @@ function resetStars(){
 }
 
 function resetMoves(){
-  let moves = 0;
+  moves = 0;
   const movesReset = document.querySelector('.moves');
   movesReset.innerHTML = moves;
 }
